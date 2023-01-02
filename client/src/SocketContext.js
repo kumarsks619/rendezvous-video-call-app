@@ -5,7 +5,7 @@ import Peer from 'simple-peer'
 const SocketContext = createContext()
 
 // const SERVER_URL = 'http://localhost:5000'
-const SERVER_URL = 'https://rendezvous-video-chat.herokuapp.com'
+const SERVER_URL = 'https://video-call-app.onrender.com'
 
 const socket = io(SERVER_URL)
 
